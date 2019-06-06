@@ -4,10 +4,16 @@
 }
 .App-header 
 {
-  background-color: #222;
+  background-image: url("./Linkedin\ coding\ pic.jpg");
   height: 150px;
-  padding: 20px;
   color: white;
+  padding: 20px;
+}
+.Header-Pic
+{
+  vertical-align: top;
+  height: 250px;
+  width: 100%;
 }
 .App-logo 
 {
@@ -18,8 +24,6 @@
 {
   height: 150px;
   width: 120px;
-
-  
 }
 .Description
 {
@@ -27,12 +31,21 @@
   display: block;
 }
 
+.Buttons
+{
+  block-size: 250px;
+  border: 1px solid #222;
+  margin-left: 90%;
+  margin-right: 20px;
+}
 #Button
 {
   background-color: rgb(250, 64, 64);
   border-radius: 12px;
   border-color: #222;
   font-size: medium;
+  margin-top: 20px;
+  width: 120px;
 }
 
 figure.Info

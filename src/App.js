@@ -7,10 +7,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">William Au</h1>
         </header>
+
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
@@ -24,7 +26,10 @@ class App extends Component {
         </figure>
 
         <div className="Buttons">
-          <input ID="Button" type="submit" value="My Resume" />
+          <input ID="Button" type="submit" value="Home"/>
+          <input ID="Button" type="submit" value="My Resume"/>
+          <input ID="Button" type="submit" value="Contact Info"/>
+          <input ID="Button" type="submit" value="Certifications"/>
         </div>
       </div>
       
