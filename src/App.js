@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import HeadShot from './portrait.png';
 
+
 class App extends Component {
+
   render() {
     return (
       <div className="App">
@@ -26,6 +28,9 @@ class App extends Component {
         </figure>
 
         <div className="Buttons">
+
+          <button onClick={ this.clicked("hello")}>The Button</button>
+
           <input ID="Button" type="submit" value="Home"/>
           <input ID="Button" type="submit" value="My Resume"/>
           <input ID="Button" type="submit" value="Contact Info"/>
