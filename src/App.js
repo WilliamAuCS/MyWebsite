@@ -29,7 +29,7 @@ class App extends Component {
 
         <div className="Buttons">
 
-          <button onClick={ this.clicked("hello")}>The Button</button>
+          
 
           <input ID="Button" type="submit" value="Home"/>
           <input ID="Button" type="submit" value="My Resume"/>
